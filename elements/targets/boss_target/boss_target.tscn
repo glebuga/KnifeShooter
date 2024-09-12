@@ -1,0 +1,67 @@
+[gd_scene load_steps=10 format=3 uid="uid://b0w816guwjlji"]
+
+[ext_resource type="PackedScene" uid="uid://i8vljhf2fika" path="res://elements/targets/target/target.tscn" id="1_gifyq"]
+[ext_resource type="Script" path="res://elements/targets/boss_target/boss_target.gd" id="2_fcwnd"]
+[ext_resource type="Texture2D" uid="uid://cvijg1s7bhscv" path="res://assets/target4.png" id="2_t7u7o"]
+[ext_resource type="Texture2D" uid="uid://d02dqah0igmoq" path="res://assets/target4_1.png" id="3_lxmc1"]
+[ext_resource type="Texture2D" uid="uid://dnh2g8gh5m7w7" path="res://assets/target4_2.png" id="4_u48l5"]
+[ext_resource type="Texture2D" uid="uid://cvkm5p8fv0cl7" path="res://assets/target4_3.png" id="5_4bovh"]
+
+[sub_resource type="Animation" id="Animation_oi8tn"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
+[sub_resource type="Animation" id="Animation_acop0"]
+resource_name = "boss_rotation"
+length = 4.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.1, 1.3, 1.8, 4),
+"transitions": PackedFloat32Array(1, 1, 1, 0.5, 1),
+"update": 0,
+"values": [0.0, -2.00713, -2.00713, 6.28319, 18.8496]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ebp3s"]
+_data = {
+"RESET": SubResource("Animation_oi8tn"),
+"boss_rotation": SubResource("Animation_acop0")
+}
+
+[node name="BossTarget" instance=ExtResource("1_gifyq")]
+script = ExtResource("2_fcwnd")
+
+[node name="Sprite2D" parent="." index="0"]
+texture = ExtResource("2_t7u7o")
+
+[node name="TargetParticles2D" parent="." index="3"]
+texture = ExtResource("3_lxmc1")
+
+[node name="TargetParticles2D2" parent="." index="4"]
+texture = ExtResource("4_u48l5")
+
+[node name="TargetParticles2D3" parent="." index="5"]
+texture = ExtResource("5_4bovh")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="7"]
+autoplay = "boss_rotation"
+libraries = {
+"": SubResource("AnimationLibrary_ebp3s")
+}

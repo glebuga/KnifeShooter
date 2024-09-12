@@ -1,0 +1,16 @@
+res://elements/apple/apple.tscn::d9083b92f8556354197a50a62149f1c1::1691237867::res://.godot/exported/133200997/export-6440e62480261e426a01868f393537c2-apple.scn
+res://elements/knife/knife.tscn::c0ec46918e636ce6130930f65d306aa7::1691480260::res://.godot/exported/133200997/export-d037312f684dd31369f74c82b8c682b7-knife.scn
+res://elements/knife_shooter/knife_shooter.tscn::f90aaa572f1f3dd875cd3bbce7e0ae3e::1691237867::res://.godot/exported/133200997/export-fa55fbda976f0c8d5cfdbbcbbb75bc2c-knife_shooter.scn
+res://elements/sfx_player/sfx_player.tscn::37f780004aebbc480e11b29a3d95f3a2::1691486645::res://.godot/exported/133200997/export-ce458921aa44dd34d0831651650cb64a-sfx_player.scn
+res://elements/targets/boss_target/boss_target.tscn::b1a4705b5fa97f88ae952747fc407fbf::1691480260::res://.godot/exported/133200997/export-151e94a80749b72864cd56c38ff7639b-boss_target.scn
+res://elements/targets/target/target.tscn::c5722fa1d352817b2cab777c1872fba5::1691480260::res://.godot/exported/133200997/export-e884add3124142c77c75ecf18d594fe7-target.scn
+res://elements/targets/target_accelerate/target_accelerate.tscn::628569c82c467015ee4beb9c1227f25f::1691480260::res://.godot/exported/133200997/export-b871ec77d02af5aaf23b4d7bf29198dc-target_accelerate.scn
+res://elements/ui/hud/knives_counter/knives_counter.tscn::6ab2910a83acc45d68a0488fad42667c::1691218375::res://.godot/exported/133200997/export-c9ee7f0ae69a5292b4d2453d47ba726f-knives_counter.scn
+res://elements/ui/hud/stage_counter/stage_counter.tscn::4f62cbc51b743f12e2aa1c4044485876::1691480260::res://.godot/exported/133200997/export-e104fc58aa64e1d3be0f048b3ced4bbc-stage_counter.scn
+res://elements/ui/hud/hud.tscn::eb946e2dcb96ec3dc823659729a405a2::1691480260::res://.godot/exported/133200997/export-eeed02b8204bef961c0b0ff4dd20d849-hud.scn
+res://elements/ui/resrtart_overlay/restart_overlay.tscn::0dc11c0fd2dbc71e65184d2fba3fa215::1691218375::res://.godot/exported/133200997/export-422ac4fa3ac324957f2ef8abc33a3974-restart_overlay.scn
+res://scenes/game/game.tscn::736b7c6f5862e7665693361b23c9adb0::1691480260::res://.godot/exported/133200997/export-69e963a49695dd4030e5c61a12b8ddfe-game.scn
+res://scenes/knife_shop/shop_item/shop_item.tscn::31f0bdadd838bae3fc54b07fc99ef3b8::1691237867::res://.godot/exported/133200997/export-200b5388f060dc32f401e949dc4d7162-shop_item.scn
+res://scenes/knife_shop/unblock_item/unblock_item.tscn::4b5f66893aafafa4273e761c5ae65595::1691237867::res://.godot/exported/133200997/export-2c5c515ad207b2bbdca8fb22c8c38bfe-unblock_item.scn
+res://scenes/knife_shop/knife_shop.tscn::2c0537d78cb6baac8988dbd55e4faa05::1691480260::res://.godot/exported/133200997/export-f3982f0daf713a3d3cf00c272d9c5599-knife_shop.scn
+res://scenes/start_screen/start_screen.tscn::9d1b037e7526a4874f8fd8528535c90e::1691237867::res://.godot/exported/133200997/export-04d75d6caa5ee2d80f522b8a1d9f0ba1-start_screen.scn
